@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 220px;
+    margin: auto;
+}
+.title{
+    color: cadetblue;
+}
+
+#statusText{
+    color: snow;
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid rgb(39, 204, 255);
+    box-shadow: 0 0 0 2px rgb(39, 204, 255);
+    cursor: pointer;
+    font-size: 50px;
+    
+}
+.game{
+    text-align: center;
+    align-items: center;
+    font-family: cursive;
+    margin-top: 100px;
+}
+
+#vdo-bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+#resetBtn{
+    width: 120px;
+    height: 40px;
+    color: black;
+    background-color: cadetblue;
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
